@@ -22,13 +22,15 @@ export const Food = component$(() => {
   return (
     <div>
       Inicializamos el estado en el componente padre y se lo mandamos al componente hijo 
+      <br />
+      <br />
       <img src={initState} alt="" />
+      <br/>
       <br/>
       my state is: {initialState.name}
       <br/>
       <input onInput$={(e)=> initialState.name = (e?.target as HTMLInputElement).value}/>
       <br/>
-      {/* <Child /> */}
   </div>)
 });
 

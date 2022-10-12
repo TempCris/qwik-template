@@ -8,7 +8,7 @@ export default component$(() => {
     return (
     <div>
         <h1>obtenemos los valores como Id
- de la ruta que estamos usando</h1>
+          de la ruta que estamos usando</h1>
         <br />
         my params is: {location.params.myid}
     </div>

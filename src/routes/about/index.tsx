@@ -1,20 +1,11 @@
-import { component$ } from "@builder.io/qwik";
+// ---Dependencies
+import { component$ } from '@builder.io/qwik';
+// ---Components
+import About from 'src/pages/About/About';
 
+/**
+ * Renderea la página "About"
+ */
 export default component$(() => {
-  return (
-    <div>
-      <h1>custom page</h1>
-      <ul>
-        <li>
-          <a href="/about/9asast"> First Component</a>
-        </li>
-        <li>
-          <a href="/about/1111"> About </a>
-        </li>
-        <li>
-          <a href="/about/food"> Food </a>
-        </li>
-      </ul>
-    </div>
-  );
+  return <About />
 });

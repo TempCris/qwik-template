@@ -1,8 +1,8 @@
 /**
- * WHAT IS THIS FILE?
+ * ¿QUÉ ES ESTE ARCHIVO?
  *
- * SSR entry point, in all cases the application is render outside the browser, this
- * entry point will be the common one.
+ * Punto de entrada de SSR, en todos los casos la aplicación se renderiza fuera del navegador, esto
+ * El punto de entrada será el común.
  *
  * - Server (express, cloudflare...)
  * - npm run start

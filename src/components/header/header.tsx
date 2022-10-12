@@ -13,7 +13,7 @@ export default component$(() => {
       </a>
       <ul>
         <li>
-          <a href="/firstComponent"> First Component</a>
+          <a href="/firstPage"> First Page</a>
         </li>
         <li>
           <a href="/about"> About </a>

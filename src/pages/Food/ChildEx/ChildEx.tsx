@@ -1,7 +1,11 @@
 // ---Dependencies
 import {component$, useContext, } from "@builder.io/qwik";
+// ---Components
 import { Mycontext } from 'src/pages/Food/Food';
-
+/**
+ * ChildEx Component: Renderea una página estática
+ * @return {Component<{}>} Qwik component
+ */
 export const ChildEx =  component$(() => {
     // -----------------------CONSTS, HOOKS, STATES
     const state: any = useContext(Mycontext);

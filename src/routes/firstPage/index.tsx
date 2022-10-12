@@ -1,11 +1,12 @@
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
 // ---Components
-import { DummyPage } from 'src/pages/DummyPage/DummPage';
+import { FirstPage } from 'src/pages/FirstPage/FirstPage';
 
 /**
  * Renderea la página "FirstComponet"
  */
 export default component$(() => {
-  return <DummyPage />
+  return <FirstPage />
 });
+

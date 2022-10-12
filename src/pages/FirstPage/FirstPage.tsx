@@ -1,7 +1,10 @@
 // ---Dependencies
 import { component$, useStore } from "@builder.io/qwik";
-
-export default component$(() =>{
+/**
+ * FirstPage Component: Renderea una página estática
+ * @return {Component<{}>} Qwik component
+ */
+export const FirstPage = component$(() =>{
     // -----------------------CONSTS, HOOKS, STATES
     const store = useStore({
         count : 0

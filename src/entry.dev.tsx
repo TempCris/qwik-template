@@ -1,13 +1,13 @@
 /*
- * WHAT IS THIS FILE?
+ * ¿QUÉ ES ESTE ARCHIVO?
  *
- * Development entry point using only client-side modules:
- * - Do not use this mode in production!
+ * Punto de entrada al desarrollo usando solo módulos del lado del cliente:
+ * - ¡No utilice este modo en producción!
  * - No SSR
- * - No portion of the application is pre-rendered on the server.
- * - All of the application is running eagerly in the browser.
- * - More code is transferred to the browser than in SSR mode.
- * - Optimizer/Serialization/Deserialization code is not exercised!
+ * - Ninguna parte de la aplicación se renderiza previamente en el servidor.
+ * - Toda la aplicación se ejecuta con entusiasmo en el navegador.
+ * - Se transfiere más código al navegador que en el modo SSR.
+ * - ¡No se ejecuta el código de optimización/serialización/deserialización!
  */
 import { render, RenderOptions } from '@builder.io/qwik';
 import Root from './root';

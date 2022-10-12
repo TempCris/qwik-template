@@ -1,11 +1,11 @@
 /*
- * WHAT IS THIS FILE?
+ * ¿QUÉ ES ESTE ARCHIVO?
  *
- * The service-worker.ts file is used to have state of the art prefetching.
+ * El archivo service-worker.ts se utiliza para tener una captación previa de última generación.
  * https://qwik.builder.io/docs/advanced/prefetching/#prefetching
  *
- * Qwik uses service worker to speed up your site and reduce latency, ie, not used in the tradicional way of offiline.
- * You can also use this file to add more functionality that runs in the service worker.
+ * Qwik usa serviceworker para acelerar su sitio y reducir la latencia, es decir, no se usa en la forma tradicional de estar fuera de línea.
+ * También puede usar este archivo para agregar más funciones que se ejecutan en el trabajador del servicio.
  */
 import { setupServiceWorker } from '@builder.io/qwik-city/service-worker';
 

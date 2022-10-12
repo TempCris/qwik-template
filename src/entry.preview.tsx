@@ -1,12 +1,12 @@
 /*
- * WHAT IS THIS FILE?
+ * ¿QUÉ ES ESTE ARCHIVO?
  *
- * It's the bundle entry point for `npm run preview`.
- * That is, serving your app built in production mode.
+ * Es el punto de entrada del paquete para `npm run preview`.
+ * Es decir, sirviendo su aplicación construida en modo de producción.
  *
- * Feel free to modify this file, but don't remove it!
+ * Siéntase libre de modificar este archivo, ¡pero no lo elimine!
  *
- * Learn more about Vite's preview command:
+ * Obtenga más información sobre el comando de vista previa de Vite:
  * - https://vitejs.dev/config/preview-options.html#preview-options
  *
  */
@@ -14,6 +14,6 @@ import { qwikCity } from '@builder.io/qwik-city/middleware/node';
 import render from './entry.ssr';
 
 /**
- * The default export is the QwikCity adaptor used by Vite preview.
+ * La exportación predeterminada es el adaptador QwikCity utilizado por la vista previa de Vite.
  */
 export default qwikCity(render);

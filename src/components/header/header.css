@@ -1,10 +1,11 @@
 header {
-  background: var(--qwik-purple);
-}
-header {
   display: flex;
-  background: white;
-  border-bottom: 10px solid var(--qwik-dark-purple);
+  background: var(--qwik-ligth-grey);
+  border-bottom: 10px solid var(--qwik-light-purple);
+}
+
+header img{
+  padding: 10px 10px 20px 10px;
 }
 
 header .logo a {
