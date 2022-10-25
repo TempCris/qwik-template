@@ -5,8 +5,10 @@
  * los estilos aquí se aplicarán al Documento, sin ningún tipo de alcance CSS.
  *
  */
+/** <------------------------------------ Colors ------------------------------------> */
 
- :root {
+
+:root {
   --qwik-dark-blue: #006ce9;
   --qwik-light-blue: #18b6f6;
   --qwik-dark-purple: #713fc2;
@@ -16,9 +18,9 @@
   --qwik-dark: #000000;
   --qwik-light: #ffffff;
 }
-
+/** <------------------------------------ Css Styles ------------------------------------> */
 body {
-  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   padding: 20px 20px 40px 20px;
   background-color: var(--qwik-dark-grey);
   color:var(--qwik-light)
@@ -48,4 +50,70 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+/** <------------------------------------ Css Grid ------------------------------------> */
+.child-one { grid-area: child-one; }
+.child-two  { grid-area: child-two ; }
+.child-three { grid-area: child-three; }
+.child-four { grid-area: child-four; }
+.child-five { grid-area: child-five; }
+.child-six { grid-area: child-six; }
+/** <------------ Main Container ------------> */
+.first-box{
+  display: grid;
+  grid-template-areas:
+    'child-one child-one child-one child-one child-one child-one'
+    'child-two child-two child-two child-three child-three child-three'
+    'child-four child-four child-five child-five child-six child-six';
+  gap: 10px;
+  padding: 10px;
+}
+.first-box div {
+  border:solid black 3px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.second-box{
+  background-color: grey;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50% 50%;
+  gap: 10px;
+  padding: 10px;
+}
+.second-box div {
+  border:solid black 3px;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
 
+/** <------------ Childs Containers ------------> */
+.child-one{
+  background-color: blue;
+}
+.child-two{
+  background-color: yellow;
+}
+.child-three{
+  background-color: green;
+}
+.child-four{
+  background-color: magenta;
+}
+.child-five{
+  background-color: cyan;
+}
+.child-six{
+  background-color: brown;
+}
+/** <------------ Childs Containers second box ------------> */
+.child2-one{
+  background-color: blue;
+}
+.child2-two{
+  background-color: yellow;
+}
+.child2-three{
+  background-color: green;
+}

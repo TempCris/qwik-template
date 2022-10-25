@@ -14,7 +14,7 @@ export const Mycontext = createContext("whatever");
  */
 export const Food = component$(() => {
    // -----------------------CONSTS, HOOKS, STATES
-   const initialState = useStore({
+    const initialState = useStore({
     name:"Cristian", 
     age:28
   });

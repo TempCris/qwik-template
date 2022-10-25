@@ -22,7 +22,7 @@ export default component$(() => {
           <a href="/food"> Food </a>
         </li>
         <li>
-          <a href="/watchTutor"> Watchtutor </a>
+          <a href="/LifeCycleHooks"> LifeCycleHooks </a>
         </li>
         <li>
           <a href="/dummyRoot"> Dummy Root </a>
