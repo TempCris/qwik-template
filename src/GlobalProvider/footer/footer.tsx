@@ -5,7 +5,7 @@ import styles from './footer.css?inline';
 /**
  * Compoente del Footer
  */
-export default component$(() => {
+export const Footer = component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   useStylesScoped$(styles);
   return (

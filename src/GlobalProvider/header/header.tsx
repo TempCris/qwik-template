@@ -3,7 +3,7 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 // ---CSS
 import styles from './header.css?inline';
 
-export default component$(() => {
+export const Header = component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   useStylesScoped$(styles);
   return (
